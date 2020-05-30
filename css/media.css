@@ -1,0 +1,178 @@
+/* ------ Media Queries ------ */
+
+/* 992-1199px */
+@media screen and (max-width: 1200px) {
+  .footer__logo {
+    margin-top: -34px;
+  }
+}
+
+/* 768-991px */
+@media screen and (max-width: 992px) {
+  .proposal {
+    margin-bottom: 40px;
+  }
+
+  .proposal_last {
+    margin-bottom: 0;
+  }
+  .mission__content_left {
+    margin-right: 20px;
+  }
+  .news__title {
+    margin-top: 40px;
+  }
+  .news__item:after {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .news__text {
+    max-width: 100%;
+  }
+  .footer__logo {
+    margin-top: 0;
+  }
+  .footer__btn {
+    margin-top: 31px;
+  }
+  .category__title {
+    text-align: center;
+  }
+  .breadcrums {
+    margin-bottom: 50px;
+  }
+  .advantage__info {
+    max-width: 330px;
+  }
+
+  .legal-support {
+    max-width: 100%;
+  }
+  .consult {
+    max-width: 100%;
+  }
+  .office {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: static;
+    max-width: 100%;
+  }
+  .office:before {
+    display: none;
+  }
+  .office__text {
+    max-width: 375px;
+  }
+}
+
+/* 576-767px */
+@media screen and (max-width: 768px) {
+  .card {
+    margin-top: 30px;
+  }
+  .mission__content_left {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .mission__content_right {
+    max-width: 100%;
+    margin-top: 35px;
+  }
+  .information {
+    text-align: center;
+  }
+  .footer__info {
+    margin: 0 auto;
+  }
+  .footer__info p {
+    margin-bottom: 27px;
+  }
+  .footer__info p:last-child {
+    margin-bottom: 27px;
+  }
+  .footer__layout {
+    justify-content: center;
+  }
+  .footer__logo {
+    width: 207px;
+    margin-bottom: 20px;
+    margin: 0 auto 30px;
+  }
+  .benefit__info {
+    width: 80%;
+  }
+  .photo__title {
+    margin-bottom: 20px;
+  }
+  .transport {
+    margin-top: 30px;
+  }
+  .content {
+    align-items: center;
+  }
+  .advantage__info {
+    max-width: 100%
+  }
+  .advantage__info_left {
+    margin-right: 0;
+  }
+  .advantage__info:not(:last-child) {
+    margin-bottom: 22px;
+  }
+  .content__item {
+    margin-bottom: 12px;
+  }
+  .content__link {
+    text-align: center;
+  }
+  .office__info {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+  }
+  .office__address {
+    margin-left: 15px;
+  }
+  .office__text {
+    margin-top: 30px;
+  }
+}
+
+/* 320-575px */
+@media screen and (max-width: 576px) {
+  .navigation-btn {
+    max-width: 56px;
+  }
+  .navigation-btn span {
+    display: none;
+  }
+  .navigation-btn_similar {
+    max-width: 156px;
+  }
+  .navigation-btn_similar span {
+    display: inline-block;
+  }
+  .offer__title {
+    font-size: 45px;
+  }
+  .offer__text {
+    font-size: 23px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .mission__title {
+    font-size: 20px;
+  }
+  .advantage__info {
+    max-width: 567px;
+  }
+  .benefit__img {
+    margin-bottom: 31px;
+  }
+  .benefit__info {
+    width: 100%;
+  }
+}
