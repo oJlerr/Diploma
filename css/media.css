@@ -5,6 +5,9 @@
   .footer__logo {
     margin-top: -34px;
   }
+  .fa-phone{
+    margin-left: -10px;
+  }
 }
 
 /* 768-991px */
@@ -63,12 +66,26 @@
   .office__text {
     max-width: 375px;
   }
+  .company{
+    text-align: center;
+  }
+  .company__wrap {
+    justify-content: center;
+  }
+  .about__nav {
+    display: flex;
+    justify-content: center !important;
+    margin-top: 20px;
+  }
 }
 
 /* 576-767px */
 @media screen and (max-width: 768px) {
   .card {
     margin-top: 30px;
+  }
+  .about__wrap{
+    padding-top: 130px;
   }
   .mission__content_left {
     max-width: 100%;
@@ -174,5 +191,18 @@
   }
   .benefit__info {
     width: 100%;
+  }
+  .pic{
+    margin-bottom: 25px !important;
+  }
+  .about__lists{
+    flex-direction: column !important;
+    text-align: center;
+  }
+  .about__item{
+    margin-bottom: 5px;
+  }
+  .qualities__pic{
+    margin-bottom: 10px;
   }
 }
