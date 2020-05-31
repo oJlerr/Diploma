@@ -165,9 +165,9 @@ button, button:hover, button:focus, button:active {
   left: 0;
 }
 
-/*.sticky {
+.sticky {
   position: fixed;
-}*/
+}
 
 .logo {
   max-width: 100%;
@@ -1129,7 +1129,7 @@ button, button:hover, button:focus, button:active {
 
 .slider__button_forward{
     font-size: 25px;
-    left: 328px;
+    left: 89%;
 }
 
 .slider__title {
