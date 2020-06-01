@@ -41,6 +41,9 @@
   .category__title {
     text-align: center;
   }
+  .footer__layout{
+        margin-right: 43px;
+  }
   .breadcrums {
     margin-bottom: 50px;
   }
@@ -90,6 +93,9 @@
   .mission__content_left {
     max-width: 100%;
     margin-right: 0;
+  }
+  .footer__layout{
+    margin-top: 15px;
   }
   .mission__content_right {
     max-width: 100%;
