@@ -30,6 +30,9 @@
   .contacts-block__text p{
     margin-bottom: 30px !important;
   }
+  .about__link{
+    padding: 10px 10px;
+  }
 
   .proposal_last {
     margin-bottom: 0;
@@ -104,8 +107,8 @@
       position: static !important;
       top: 0;
       max-width: none !important;
-      width: 100% !important;
-        margin: 20px auto;
+      width: 80% !important;
+        margin: 40px auto;
     }
 
     .text {
@@ -141,6 +144,9 @@
   .contacts-block__text {
     max-width: 55%;
   }
+  .information__list_exshort {
+    margin-bottom: 61px;
+}
   .about__wrap{
     padding-top: 130px;
   }
@@ -149,7 +155,7 @@
     margin-right: 0;
   }
    .about__link{
-        padding: 11px 0px 10px 16px !important;
+        padding: 10px 10px;
   }
 
   .contacts-block__content{
@@ -242,8 +248,16 @@
   .navigation-btn_similar {
     max-width: 156px;
   }
+  .fa-phone{
+    margin-left: 0;
+  }
   .navigation-btn_similar span {
     display: inline-block;
+  }
+  .consultation__number{
+        display: block;
+    margin: 10px 0;
+
   }
   .offer__title {
     font-size: 45px;
@@ -273,10 +287,24 @@
     flex-direction: column !important;
     text-align: center;
   }
+  .point__mail{
+    font-size: 15px;
+  }
+  .text{
+    margin-top: 40px;
+  }
   .about__item{
     margin-bottom: 5px;
   }
   .qualities__pic{
     margin-bottom: 10px;
+  }
+  .social_services a{
+    padding: 0;
+    border: none;
+    margin-left:10px;
+  }
+  .visit__title{
+    font-size: 18px;
   }
 }

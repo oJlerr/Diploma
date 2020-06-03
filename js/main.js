@@ -12,4 +12,8 @@ $(function(){
 		$('html, body').animate({scrollTop: 0}, 600);
 		return false;
 	});
+	 $('.burger').click(function () {
+        $('.menu-collapse').toggleClass('d-none').css('order', '1');
+        $('.menu').toggleClass('menu-opened');
+	})
 });
