@@ -1052,7 +1052,7 @@ button, button:hover, button:focus, button:active {
 /*------SERVICES PAGE---------*/
 
 .lawyer {
-  background: url(../img/law.jpg) no-repeat center top / cover;
+  background: url(../img/law.jpg) no-repeat fixed center bottom / cover;
   color: #fff;
   position: relative;
   padding-top: 42px;
@@ -1197,6 +1197,18 @@ button, button:hover, button:focus, button:active {
 }
 .slick-slide img {
     display: inherit;
+}
+.slick-prev, .slick-next {
+  font-size: 23px !important;
+  color: #000 !important;
+  top:25% !important;
+
+}
+.slick-prev{
+  left:0 !important;
+}
+.slick-next{
+  right:0 !important;
 }
 
 .consultation__btn:hover {
