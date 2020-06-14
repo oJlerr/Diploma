@@ -42,6 +42,9 @@ $(window).on('load', function () {
         nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
     });
 
-
- 
+// modal window
+	 $('.modal-btn').click(function () {
+        $('#exampleModal').arcticmodal();
+    }); 
+	
 	});	

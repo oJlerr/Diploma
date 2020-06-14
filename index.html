@@ -21,6 +21,8 @@
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Arctic modal -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
  	<!-- CSS Styles -->
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -74,7 +76,7 @@
 					</nav>
 				</div>
 				<div class="col-6 col-md-8 col-lg-2 d-flex justify-content-end">
-					<a href="#" class="navigation-btn btn">
+					<a href="#" class="navigation-btn btn modal-btn">
 						<i class="fas fa-phone"></i>
 						<span>Заказать звонок</span>
 					</a>
@@ -167,7 +169,7 @@
 					</div>
 				</div>
 				<div class="col">
-					<a href="#cognitive" class="more__btn btn">
+					<a href="#cognitive" class="more__btn btn modal-btn">
 						Подробнее
 					</a>
 				</div>
@@ -534,17 +536,26 @@
 					</div>
 				</div>
 				<div class="col-lg-2 d-sm-block d-md-none d-lg-block text-lg-right">
-					<a href="#" class="footer__btn btn">
+					<a href="#" class="footer__btn btn modal-btn">
 						<i class="fas fa-phone"></i>
 						Заказать звонок
 					</a>
 				</div>
 			</div>
 		</div>
+		
 	</footer>
+	<div style="display: none;">
+		    <div class="box-modal" id="exampleModal">
+		        <div class="box-modal_close arcticmodal-close">закрыть</div>
+		        Пример модального окна
+		    </div>
+		</div>
+<!-- JS -->
 	<a href="#" id="scroll_top" title="Наверх"></a>
 	<script src="js/jquery-3.5.1.min.js"></script>
 	 <script src="js/main.js"></script>
 	 <script src="js/parallax-bg.js"></script>
-	 
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+<!-- JS -->
 </body>
