@@ -32,6 +32,11 @@ $(window).on('load', function () {
         $('.menu-collapse').toggleClass('d-none').css('order', '1');
         $('.menu').toggleClass('menu-opened');
 	})
+
+	 // modal window
+	 $('.modal-btn').click(function () {
+        $('#exampleModal').arcticmodal();
+    }); 
 //Slider
 
 	 $('.slider').slick({
@@ -42,9 +47,6 @@ $(window).on('load', function () {
         nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
     });
 
-// modal window
-	 $('.modal-btn').click(function () {
-        $('#exampleModal').arcticmodal();
-    }); 
+
 	
 	});	
